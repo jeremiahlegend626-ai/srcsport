@@ -1,6 +1,0 @@
-/* Variables */:root{--primary:#0A1F44;--gold:#FFD700}*{box-sizing:border-box}body{font-family:Arial,sans-serif;margin:0}
-.navbar{display:flex;justify-content:space-between;align-items:center;background:var(--primary);padding:1rem}.nav-links{display:flex;gap:1rem;list-style:none}.nav-links a,.logo{color:#fff;text-decoration:none}
-.hero{min-height:70vh;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://picsum.photos/1200/800');display:grid;place-items:center;color:#fff}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;padding:1rem}.card{padding:1rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
-.btn,button{padding:.8rem 1rem;border:none;border-radius:8px;background:var(--gold)}footer{text-align:center;padding:1rem;background:#111;color:#fff}.skip-link{position:absolute;left:-999px}.skip-link:focus{left:10px}
-@media(max-width:768px){.nav-links{display:none;flex-direction:column}.nav-links.show{display:flex}}
